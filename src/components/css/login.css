@@ -1,0 +1,92 @@
+.log-container{
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.log-container img.bg{
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.log-content{
+  position: relative;
+  box-sizing: border-box;
+  padding: 80px 40px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.cta-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  text-align: center;
+}
+
+.cta-content button{
+  width: 100%;
+  display: block;
+  background-color: rgb(54, 54, 222);
+  color: white;
+  padding: 15px 0;
+  outline: none;
+  border: none;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cta-content button:hover{
+  background-color: rgb(64, 64, 188);
+}
+
+.log-content img.logos{
+  width: 400px;
+  display: block;
+}
+
+.log-content img.logos-2{
+  width: 500px;
+  display: block;
+}
+
+.cta-content p{
+  font-size: 12px;
+}
+
+
+/* Mobile Responsiveness */
+@media all and (max-width: 490px) {
+  .log-content{
+    transform: scale(0.6);
+  }
+
+  .log-container img.bg{
+    object-fit: cover;
+  }
+
+  
+}
+
+
+
