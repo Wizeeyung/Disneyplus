@@ -36,7 +36,7 @@ const Header = () =>{
           image: user.photoURL
         }));
 
-        // navigate('/home')
+        navigate('/home')
 
       }else if(!user){
         navigate('/')

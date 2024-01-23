@@ -34,7 +34,7 @@
   height: 50vh;
   min-height: 170px;
   max-height: 50vh;
-  position: relative;
+  /* position: relative; */
   z-index: 2;
   display: block;
   margin-bottom: 20px;

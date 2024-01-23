@@ -83,7 +83,7 @@ const Recommended = ({movie}) => {
         movieTitle: movie.title || '', // Use optional chaining to handle potential undefined
         cardImg: movie.cardImg
       }))} />}</div>
-           <img src={movie.cardImg} alt='img'  />
+           <img src={movie.cardImg} alt='img' loading='eager' />
            
           </div>
       

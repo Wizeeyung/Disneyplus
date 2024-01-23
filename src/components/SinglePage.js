@@ -17,7 +17,7 @@ const SinglePage = () => {
       <img src={item.backgroundImg} alt='bg'/>
       <div className='details-content'>
         <div className='title-img'>
-          <img src={item.titleImg} alt='bg-logo' />
+          <img src={item.titleImg} alt='bg-logo' loading='eager'/>
         </div>
         
         <div className='details-btn'>

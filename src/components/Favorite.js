@@ -18,7 +18,7 @@ const Favorite = ({movie}) => {
          <div className='favorite-icon'>
           <MdCancel onClick={handleDelete}/>
         </div>
-      <img src={movie.cardImg} alt='img'  />
+      <img src={movie.cardImg} alt='img' loading='eager'  />
          
         </div>
     
