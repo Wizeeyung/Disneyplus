@@ -128,15 +128,18 @@
 @media all and (max-width:490px) {
  
   .title-img{
-    height: 50vh;
-    max-height: 50vh;
+    height: unset;
+    max-height: unset;
     max-width: unset;
     min-height: unset;
   }
  
   .title-img img{
     width: 50px;
-    min-width: 70vw;
+    min-width: 80vw;
+    /* height: fit-content; */
+    max-height: 30vh;
+    height: 20vh;
   }
 
   .details-container img{
