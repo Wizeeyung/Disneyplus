@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import './css/details.css'
 import { FaPlay } from "react-icons/fa";
@@ -11,13 +11,18 @@ const SinglePage = () => {
   const {item} = location.state
   console.log(item , 'item')
 
+  const [movies, setMovies] = useState([])
+
+  useEffect(()=>{
+    setMovies(item)
+  }, [])
 
   return (
     <div className='details-container'>
-      <img src={item.backgroundImg} alt='bg'/>
+      <img src={movies.backgroundImg} alt='bg'/>
       <div className='details-content'>
         <div className='title-img'>
-          <img src={item.titleImg} alt='bg-logo' loading='eager'/>
+          <img src={movies.titleImg} alt='bg-logo' loading='lazy'/>
         </div>
         
         <div className='details-btn'>
@@ -30,8 +35,8 @@ const SinglePage = () => {
         </div>
 
         <div className='details-txt'>
-          <p>{item.subTitle}</p>
-          <p>{item.description}</p>
+          <p>{movies.subTitle}</p>
+          <p>{movies.description}</p>
         </div>
         
 
