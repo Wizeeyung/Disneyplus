@@ -101,13 +101,13 @@
   height: 100%; */
   top: 15px;
   left: 15px;
-  opacity: 0;
+  opacity: 1;
 }
 
-.recommended-icon:hover{
+/* .recommended-icon:hover{
   opacity: 1;
   
-}
+} */
 
 .recommended-box svg{
   z-index: 3;
