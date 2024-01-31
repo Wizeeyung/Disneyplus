@@ -128,8 +128,8 @@
 @media all and (max-width:490px) {
  
   .title-img{
-    height: unset;
-    max-height: unset;
+    height: 50vh;
+    max-height: 50vh;
     max-width: unset;
     min-height: unset;
   }
