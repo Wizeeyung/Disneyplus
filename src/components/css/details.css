@@ -4,6 +4,7 @@
   padding-top: 85px;
   width: 100%;
   min-height: 100vh;
+  overflow: hidden;
   /* overflow-y: hidden; */
   background-repeat: repeat;
   background-image: repeating-linear-gradient(transparent, rgba(0,0,0,0.8));
@@ -34,7 +35,7 @@
   height: 50vh;
   min-height: 170px;
   max-height: 50vh;
-  /* position: relative; */
+  position: relative;
   z-index: 2;
   display: block;
   margin-bottom: 20px;

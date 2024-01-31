@@ -141,6 +141,24 @@
   color: darkblue;
 }
 
+button.slick-arrow.slick-next::before{
+  display: none;
+  cursor: none;
+}
+
+button.slick-arrow.slick-prev::before{
+  display: none;
+  cursor: none;
+}
+
+button.slick-arrow.slick-prev{
+  cursor: unset;
+}
+
+button.slick-arrow.slick-next{
+  cursor: unset;
+}
+
 
 
 
