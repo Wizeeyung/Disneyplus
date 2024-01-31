@@ -38,14 +38,14 @@
   max-height: 50vh;
   position: relative;
   z-index: 2;
-  /* display: block; */
+  display: block;
   margin-bottom: 20px;
   
  
 }
 
 .title-img img{
-  /* display: block; */
+  display: block;
   position: relative;
   width: 45vw;
   /* max-width: 600px; */
@@ -166,7 +166,7 @@
   }
 
   .details-content{
-    top: 300px;
+    top: 180px;
     /* bottom: 0px;
     top: unset; */
   }
