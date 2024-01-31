@@ -136,10 +136,11 @@
  
   .title-img img{
     width: 50px;
-    min-width: 80vw;
+    min-width: 60vw;
     /* height: fit-content; */
-    max-height: 30vh;
-    height: 20vh;
+    min-height: 15vh;
+    /* max-height: 50vh; */
+    /* height: 20vh; */
   }
 
   .details-container img{
